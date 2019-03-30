@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worpd.aMazeLib", "src\Worpd.aMazeLib\Worpd.aMazeLib.csproj", "{3DA37CF7-5EFE-4E82-BA64-5B0E3CC99738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worpd.aMazeLib.Test", "src\Worpd.aMazeLib.Test\Worpd.aMazeLib.Test.csproj", "{45A11FD9-8F69-45C6-A597-DAFC77814124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DA37CF7-5EFE-4E82-BA64-5B0E3CC99738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA37CF7-5EFE-4E82-BA64-5B0E3CC99738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA37CF7-5EFE-4E82-BA64-5B0E3CC99738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA37CF7-5EFE-4E82-BA64-5B0E3CC99738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A11FD9-8F69-45C6-A597-DAFC77814124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A11FD9-8F69-45C6-A597-DAFC77814124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A11FD9-8F69-45C6-A597-DAFC77814124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A11FD9-8F69-45C6-A597-DAFC77814124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
