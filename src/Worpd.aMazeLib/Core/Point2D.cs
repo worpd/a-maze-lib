@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 
 namespace Worpd.aMazeLib.Core
 {
@@ -70,7 +69,6 @@ namespace Worpd.aMazeLib.Core
 
         public bool Equals(Point2D point)
         {
-            Console.WriteLine("Equals being called");
             return (point.x == x) & (point.y == y);
         }
 
