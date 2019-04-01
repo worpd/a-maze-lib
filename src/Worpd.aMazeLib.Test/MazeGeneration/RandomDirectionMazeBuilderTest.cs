@@ -24,7 +24,7 @@ namespace Worpd.aMazeLib.Test.MazeGeneration
         [Test]
         public void ValidMazeIsBuilt()
         {
-            Maze maze = builder.GenerateMaze(20, 20, new Random(5));
+            Maze maze = builder.GenerateMaze(10, 10, new Random(5));
             Console.WriteLine(maze);
         }
     }

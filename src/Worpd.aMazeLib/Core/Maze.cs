@@ -32,26 +32,29 @@ namespace Worpd.aMazeLib.Core
 
         public override string ToString()
         {
+            List<String> lines = new List<String>();
+
             for (int y = 0; y < height; y++)
             {
+                List<String> line = new List<String>();
+
                 for (int x = 0; x < width; x++)
                 {
                     Point2D point = new Point2D(x, y);
                     if (hasWallAt(point))
                     {
-                        Console.BackgroundColor = ConsoleColor.Red;
-                        Console.Write(" x ");
+                        line.Add(" x ");
                     }
                     else
                     {
-                        Console.Write(" . ");
+                        line.Add(" . ");
                     }
-                    Console.ResetColor();
                 }
-                Console.WriteLine();
+
+                lines.Add(String.Join("", line.ToArray()));
             }
 
-            return base.ToString();
+            return String.Join("\n", lines.ToArray());
         }
     }
 }
